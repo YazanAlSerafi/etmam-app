@@ -6,12 +6,13 @@
     app:cardElevation="4dp"
     app:cardCornerRadius="8dp"
     android:layout_marginHorizontal="16dp"
-    android:layout_marginVertical="16dp">
+    android:layout_marginVertical="8dp">
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
     <CheckBox
+    android:id="@+id/checbox"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="tsk 1"
